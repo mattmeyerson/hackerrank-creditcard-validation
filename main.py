@@ -34,5 +34,5 @@ if __name__ == '__main__':
     for x in range(num_of_lines):
         credit_card_validations.append(validate_card_number(input()))
 
-    for x in range(int(num_of_lines_str)):
+    for x in range(num_of_lines):
         print('Valid' if credit_card_validations[x] else 'Invalid')
